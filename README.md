@@ -1,15 +1,20 @@
 # Job Application Tracker
 
-## Current Version
-CLI-based Python CRUD system for tracking job applications.
+## Overview
+A CLI-based Python backend system implementing CRUD operations to manage job application workflows. Designed with modular logic and structured data persistence using JSON.
 
 ## Features
 - Create job entry
-- Read/list jobs
+- Read/List job applications
 - Update job details
 - Delete job entry
-- Structured data storage
+- Persistent JSON-based storage
+
+## Tech Stack
+- Python
+- JSON
 
 ## Upcoming Upgrade
 - Refactoring into Flask-based REST API
 - SQL database integration
+- RESTful endpoints
