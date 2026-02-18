@@ -1,0 +1,15 @@
+body { font-family: 'Segoe UI', sans-serif; background:#f9f9f9; margin:0; padding:0; color:#333; }
+.container { max-width:900px; margin:50px auto; padding:20px; background:#fff; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.1); }
+h1 { text-align:center; color:#444; }
+.btn-add { background:#28a745; color:#fff; padding:8px 15px; border-radius:5px; text-decoration:none; }
+.btn-edit { background:#007bff; color:#fff; padding:3px 8px; border-radius:3px; text-decoration:none; }
+.btn-delete { background:#dc3545; color:#fff; padding:3px 8px; border-radius:3px; border:none; cursor:pointer; }
+.job-list { list-style:none; padding:0; }
+.job-list li { display:flex; justify-content:space-between; align-items:center; padding:12px 15px; border-bottom:1px solid #eee; margin-bottom:5px; border-radius:5px; background:#fafafa; }
+.status-applied { color:green; font-weight:bold; }
+.status-interview { color:blue; font-weight:bold; }
+.status-rejected { color:red; font-weight:bold; }
+.pagination { display:flex; justify-content:center; align-items:center; gap:15px; margin-top:20px; }
+.pagination a { padding:5px 10px; border:1px solid #ddd; border-radius:5px; color:#007bff; text-decoration:none; }
+.pagination a:hover { background:#007bff; color:#fff; }
+.no-jobs { text-align:center; color:#888; padding:15px 0; }
