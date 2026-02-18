@@ -1,20 +1,23 @@
-# Job Application Tracker
+# Job Tracker Web Application
 
-## Overview
-A CLI-based Python backend system implementing CRUD operations to manage job application workflows. Designed with modular logic and structured data persistence using JSON.
+A backend project for tracking job applications built using Flask and SQLite. This application allows users to add, view, update, delete, search, filter, and paginate job entries.
 
-## Features
-- Create job entry
-- Read/List job applications
-- Update job details
-- Delete job entry
-- Persistent JSON-based storage
+## 📍 Features
+- Add new job applications
+- View all jobs with pagination
+- Search by company or role
+- Filter by status (e.g., applied, interviewed)
+- Update existing entries
+- Delete job entries
+- Backend built using Flask + SQLite
 
-## Tech Stack
+## 🛠 Tech Stack
 - Python
-- JSON
+- Flask
+- SQLite
+- HTML, CSS, JavaScript (for frontend templates)
 
-## Upcoming Upgrade
-- Refactoring into Flask-based REST API
-- SQL database integration
-- RESTful endpoints
+## 🚀 How to Run
+1. Clone the repo
+   ```bash
+   git clone https://github.com/neha-singh-dev/job-application-tracker.git
