@@ -34,4 +34,28 @@ This backend is now being refactored into a RESTful API — the foundation for a
 2. Navigate into folder  
    `cd job-application-tracker`
 
-3. Create virtual environment & install deps  
+3. Create virtual environment & install deps
+   
+4. Run the app  
+`python app.py`
+
+## 🛠 API Endpoints (Examples)
+
+(Currently minimal — update after Django migration)
+- `GET /jobs` – list all jobs
+- `POST /jobs` – add job
+- `GET /jobs/<id>` – get specific job
+- `PUT /jobs/<id>` – update job
+- `DELETE /jobs/<id>` – delete job
+
+## 📈 Next Steps
+
+- Complete transition to Flask REST API
+- Implement authentication
+- Move to Django + PostgreSQL
+- Deployment (Heroku / Railway / Render)
+
+## 🙋‍♀️ About Me
+
+Backend developer building real systems using Python, Flask, upcoming Django, and SQL.
+
